@@ -1,0 +1,41 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+
+#card,
+#table,
+#powerCard,
+#rolesCard,
+#cateCard,
+#paramsCard,
+.zk-table,
+#paramsForm,
+.paramsTable,
+#goodsCard,
+#goodsTable,
+#goodsAddCard,
+.el-steps,
+#goodsAddTabs,
+#ordersCard,
+#ordersTab,
+#reportsCard{
+  margin-top:15px !important;
+}
+
+.elIn{
+  width: 200px
+}
+
+label.el-form-item__label{
+  text-align:left !important;
+}
+
+.ql-editor{
+  height: 500px  !important;
+}
